@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>Jyoshnasree Portfolio</title>
+
+    <meta name="description" content="Jyoshh - Engineering Student & Aspiring Developer. Building responsive, user-friendly websites and turning ideas into real-world solutions." />
+    <meta name="keywords" content="Jyoshh, portfolio, engineering student, web developer, HTML, CSS, JavaScript, React, Bootstrap, Git" />
+    <meta name="author" content="Jyoshh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jyoshh.dev" />
+    
+    <meta property="og:title" content="Jyoshh · Engineering Student &amp; Aspiring Developer" />
+    <meta property="og:description" content="Building responsive, user-friendly websites and turning ideas into real-world solutions." />
+    <meta property="og:type" content="website" />
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <!-- ===== SKIP TO MAIN CONTENT ===== -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header role="banner" aria-label="Site header">
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+      <div class="nav-logo">
+    <a href="#home" aria-label="Jyoshh Homepage" class="logo-link">
+
+        <div class="logo-icon">JP</div>
+
+        <div class="logo-text">
+            <h2>Jyoshh</h2>
+            <span>Portfolio</span>
+        </div>
+
+    </a>
+</div>
+
+                <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                    <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                    <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                    <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+                </ul>
+
+                <div class="nav-icons" aria-label="Social media links">
+                    <a href="#" aria-label="LinkedIn profile" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub profile" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main id="main-content" role="main">
+
+        <!-- ===== HOME / HERO SECTION ===== -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="container hero-container">
+                <article class="hero-content">
+
+                    <div class="hero-header">
+                         <span class="intro">Hello, I'm</span>
+                        <h1 class="hero-name">Jyoshnasree</h1>
+                        <p class="hero-tagline">
+                            Engineering Student & Aspiring Developer
+                        </p>
+                    </div>
+
+                    <p class="hero-description">
+                        I build responsive, user-friendly websites and love turning ideas into real-world solutions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-download" aria-hidden="true"></i> Download Resume
+                        </a>
+                        <a href="#projects" class="btn btn-outline">
+                            View My Projects <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <address class="hero-contact" aria-label="Contact information">
+                        <span><i class="fas fa-envelope" aria-hidden="true"></i> jyoshh@email.com</span>
+                        <span><i class="fas fa-phone" aria-hidden="true"></i> +1 234 567 890</span>
+                        <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> San Francisco, CA</span>
+                    </address>
+                </article>
+
+                <figure class="hero-visual" aria-label="Profile illustration">
+                    <div class="profile-wrapper">
+                        <div class="profile-ring" aria-hidden="true"></div>
+                        <div class="profile-image">
+    <img src="download.jpeg" alt="Jyoshh">
+</div>
+                    </div>
+                    <figcaption class="sr-only">Jyoshh profile avatar</figcaption>
+
+                    <!-- Floating Code Card -->
+                    <div class="floating-card code-card">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="code-body">
+                            <span class="code-keyword">const</span> <span class="code-var">dev</span> = {<br />
+                            &nbsp;&nbsp;<span class="code-key">passion</span>: <span class="code-str">"Code"</span>,<br />
+                            &nbsp;&nbsp;<span class="code-key">focus</span>: <span class="code-str">"Web"</span>,<br />
+                            &nbsp;&nbsp;<span class="code-key">goal</span>: <span class="code-str">"Impact"</span><br />
+                            };
+                        </div>
+                    </div>
+
+                    <!-- Floating Skills Widget -->
+                    <div class="floating-card skills-widget">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">About Me</span>
+                    <h2 id="about-heading" class="section-title">Who I <span>Am</span></h2>
+                    <p class="section-subtitle">Passionate about building meaningful digital experiences</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="about-text">
+                        <p>
+                            I'm a passionate engineering student who loves coding, exploring new technologies,
+                            and building projects that solve real problems. With a strong foundation in web
+                            development, I strive to create clean, efficient, and user-centric digital experiences.
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            More About Me <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                    <aside class="about-stats" aria-label="Personal statistics">
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="10 plus projects">10+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="2 plus years">2+</span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="5 plus certificates">5+</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" aria-label="Infinite coffee">∞</span>
+                            <span class="stat-label">Coffee</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="skills" class="skills" aria-labelledby="skills-heading">
+            <div class="container">
+                <div class="skills-header">
+                    <span class="section-badge">My Skills</span>
+                    <h2 id="skills-heading" class="section-title">Technologies I <span>Work With</span></h2>
+                    <p class="section-subtitle">Tools and technologies I use to build amazing products</p>
+                </div>
+
+                <ul class="skills-grid" role="list">
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-html5" aria-hidden="true"></i>
+                        <h4>HTML5</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency 95%">
+                            <div class="progress" style="width:95%"></div>
+                        </div>
+                    </li>
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                        <h4>CSS3</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency 90%">
+                            <div class="progress" style="width:90%"></div>
+                        </div>
+                    </li>
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-js" aria-hidden="true"></i>
+                        <h4>JavaScript</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency 85%">
+                            <div class="progress" style="width:85%"></div>
+                        </div>
+                    </li>
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-react" aria-hidden="true"></i>
+                        <h4>React</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="React proficiency 80%">
+                            <div class="progress" style="width:80%"></div>
+                        </div>
+                    </li>
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                        <h4>Bootstrap</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Bootstrap proficiency 88%">
+                            <div class="progress" style="width:88%"></div>
+                        </div>
+                    </li>
+                    <li class="skill-card" role="listitem">
+                        <i class="fab fa-git-alt" aria-hidden="true"></i>
+                        <h4>Git</h4>
+                        <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Git proficiency 82%">
+                            <div class="progress" style="width:82%"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section id="projects" class="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <div class="projects-header">
+                    <span class="section-badge">Portfolio</span>
+                    <h2 id="projects-heading" class="section-title">My <span>Projects</span></h2>
+                    <p class="section-subtitle">Real-world solutions I've built</p>
+                </div>
+
+                <ul class="projects-grid" role="list">
+                    <li class="project-card" role="listitem">
+                        <div class="project-icon" aria-hidden="true"><i class="fas fa-cloud-sun"></i></div>
+                        <h3>Weather App</h3>
+                        <p>Real-time weather data with dynamic UI.</p>
+                        <a href="#" class="project-link" aria-label="View Weather App project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="project-card" role="listitem">
+                        <div class="project-icon" aria-hidden="true"><i class="fas fa-store"></i></div>
+                        <h3>E-Commerce Store</h3>
+                        <p>Full-featured online shopping experience.</p>
+                        <a href="#" class="project-link" aria-label="View E-Commerce Store project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="project-card" role="listitem">
+                        <div class="project-icon" aria-hidden="true"><i class="fas fa-tasks"></i></div>
+                        <h3>Task Manager</h3>
+                        <p>Kanban-style productivity dashboard.</p>
+                        <a href="#" class="project-link" aria-label="View Task Manager project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== STATISTICS SECTION ===== -->
+        <section id="statistics" class="stats" aria-labelledby="stats-heading">
+            <div class="container">
+                <h2 id="stats-heading" class="sr-only">Statistics</h2>
+                <ul class="stats-grid" role="list">
+                    <li class="stat-item" role="listitem">
+                        <span class="stat-number" aria-label="10 plus projects completed">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </li>
+                    <li class="stat-item" role="listitem">
+                        <span class="stat-number" aria-label="2 plus years learning">2+</span>
+                        <span class="stat-label">Years Learning</span>
+                    </li>
+                    <li class="stat-item" role="listitem">
+                        <span class="stat-number" aria-label="5 plus certificates">5+</span>
+                        <span class="stat-label">Certificates</span>
+                    </li>
+                    <li class="stat-item" role="listitem">
+                        <span class="stat-number" aria-label="Infinite cups of coffee">∞</span>
+                        <span class="stat-label">Cups of Coffee</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="contact-header">
+                    <span class="section-badge">Get in Touch</span>
+                    <h2 id="contact-heading" class="section-title">Let's <span>Connect</span></h2>
+                    <p class="section-subtitle">Have a question or want to collaborate? Reach out!</p>
+                </div>
+
+                <form class="contact-form" action="#" method="POST" aria-label="Contact form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Full Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required aria-required="true" autocomplete="name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required aria-required="true" autocomplete="email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Discussion" autocomplete="subject" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message <span aria-hidden="true">*</span></label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required aria-required="true"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer role="contentinfo" aria-label="Site footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Jyoshh. Built with <i class="fas fa-heart" aria-hidden="true" style="color:#6c63ff;"></i> and pure HTML/CSS.</p>
+           <ul class="footer-links" aria-label="Footer navigation">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script>
+        // Hamburger menu toggle with ARIA support
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', function() {
+            const expanded = this.getAttribute('aria-expanded') === 'true' ? false : true;
+            this.setAttribute('aria-expanded', expanded);
+            navMenu.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+
+        // Close menu on link click (mobile)
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Keyboard navigation for hamburger
+        hamburger.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
